@@ -1,0 +1,67 @@
+<style>
+   * {
+        font-family: "맑은 고딕",Arial, Helvetica, sans-serif;
+        line-height: 150%;
+    }
+    body{
+        margin-top: 20px;
+        margin: 0 auto;
+        max-width: 980px;
+    }
+    header,footer{
+        height: 100px;
+    }
+    header h1{
+        display: inline;
+    }
+    footer{
+        background-color: gray;
+    }
+    nav{
+        height: 50px;
+    }
+    section{
+        display: flex;
+    }
+    .content{
+        flex: 4; 
+    }
+    aside{
+        flex: 1;
+    }
+    ul{list-style-type: none;}
+    a{text-decoration: none;}
+    nav ul li{
+        display: inline;
+        padding: 15px 30px;
+        letter-spacing: 50x;
+    }
+    nav ul li:hover{
+        background-color: #ff7f50;
+    }
+    nav ul{
+        border-top: 2px solid #ff7f50;
+        border-bottom: 2px solid #ff7f50;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    .bigdata >  img{
+        padding-top: 50px;
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .action table{
+        margin: 0 auto;
+        width: 90%;
+        font-size: 1.2em;
+        border: 0px;
+    }
+    .action table th{
+        background-color: #ff7f50;
+    }
+    video,iframe{
+        margin: 0 auto;
+        width: 70%;
+    }
+</style>
