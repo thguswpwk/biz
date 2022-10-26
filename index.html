@@ -1,20 +1,134 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4HZ1H5GGBM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4HZ1H5GGBM');
+</script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>안녕하세요. 박소현 입니다.</title>
+    <meta name="keywords" content="ga, IT 블로그, 경영정보">
+    <meta name="author" content="sohyun">
+    <title> welcome to sohyun's site</title>
+    <script src="https://kit.fontawesome.com/52ce057098.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/mystyle.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+    body{
+        margin: auto;
+        max-width: 980px;
+    } 
+    section{
+        display: flex;
+    }
+    .content{
+        flex: 4;
+    }
+    aside{
+        flex: 1;
+    }
+    </style>
+
 </head>
+</script>
 <body>
-    <h1> 20201159 박소현 profile </h1>
-    <h2> 동의대학교 경영정보학과 </h2>
-    1. 데이터분석 : GA로 이용한 데이터기반 의사결정 능력 <br>
-    2. 서비스기획 : 환경분석 및 웹서비스 기회 능력 <br>
-    3. 머신 러닝 : 머신러닝 알고리즘 이해도와 빅데이터 분석 능력 <br>
-    <hr>
-    <h3> 취미</h3>
-    1. 캘리그라피 <br>
-    2. 현대미술서 공부 <br>
+     <header id="home">
+        <i class="fa-sharp fa-solid fa-bars"></i>
+     <h1> sohyun site</h1>
+     </header>
+     <nav>  
+       <ul>
+        <li><a href="./index.html">소개</a></li>
+        <li><a href="./shop/computer.html">쇼핑</a></li>
+        <li><a href="./event/event.html">패키지</a></li>
+        <li><a href="#">커뮤니티</a></li>
+       </ul>
+      
+     </nav>
+     <section>
+        <div class="content">
+        <article>
+            <div class="bigdata">
+            <img src="./images/bigdata.jpg"  class="w3-circle" alt="메인이미지"width="50%">
+            </div>
+            <div class="action">
+            <h2>나의 대외활동 이력</h2>
+            <table  class="w3-table-all w3-hoverable">
+                <tr>
+                    <th>기간</th>
+                    <th>대외활동내용</th>
+                    <th>주최</th>
+                </tr>
+                <tr>
+                    <td>2021.3.</td>
+                    <td>교육 프로그램</td>
+                    <td>정보학회</td>
+                </tr>
+                <tr>
+                    <td>2022.5.</td>
+                    <td>교육 프로그램</td>
+                    <td>동의대</td>
+                </tr>
+                <tr>
+                    <td>2022.8.</td>
+                    <td>온라인 쇼핑몰 기획 공모전</td>
+                    <td>중소기업창</td>
+                </tr>
+            </table>
+            </div>
+        
+    </article>
+        <article>
+            <div class="media">
+            <h2>좋아하는 음악</h2>
+            <audio src="./media/music01.mp3"  controls></audio>   
+            <h2>북극곰 환경을 살리자</h2>
+            <video src="./media/movie.mp4" controls width="50%"></video>
+            <h2>지구오락실</h2>
+            <iframe width="70%" height="500" src="https://www.youtube.com/embed/r3RGVcu_ZI0" title="[#갓구운클립] 호텔 숙박권부터 현찰까지 다양한 지락이들의 소원을 말해봐~🎁 토롱이 잡기는 잘했는데 이어말하기에는 영 소질이..🤣 | #뿅뿅지구오락실" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </article>
+        <article>
+        <div class="gallery">
+            <iframe  width="70%" height="400" src="./gallery.html" frameborder="0"></iframe>
+        </div>
+        </article>
+
+        </div>
+        <aside>
+          <div class="link">
+            <a href="http://mis.deu.ac.kr" target="_blank">경영정보학과 사이트</a> <br>
+            <a href="./gallery.html">갤러리</a> <br>
+            <a href="#home">시작이동</a>
+          </div>
+          <div class="login">
+            <h2> 로그인</h2>
+            <form action="#" method="get">
+                회원ID <input type="text" class="w3-input" name="id" id=""><br>
+                비밀번호 <input type="password" class="w3-input" name="pw" id=""><br>
+                남자 <input type="radio" name="gender" value="1" id="">
+                여자<input type="radio" name="gender" value="2" id="">
+                <br>
+                <input type="submit" class="w3-button w3-black" value="로그인">
+                <input type="reset" class="w3-button w3-black" value="재설정">
+
+            </form>
+          </div>
+            
+        </aside>
+     </section>
+     <footer> 저작권과 주소
+        <div class="sns">
+            <a href="https://www.facebook.com/">
+            <i class="fa-brands fa-facebook"></i><a>
+            <i class="fa-brands fa-twitter"></i><a>
+        </div>
+    </footer> 
 </body>
 </html>
